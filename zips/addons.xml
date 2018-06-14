@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon 	id="plugin.video.PinoyReplay"
+		name="Pinoy Replay"
+		version="1.0.0"
+		provider-name="">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.resolveurl" version="5.0.09"/>
+<import addon="script.module.urlresolver"  version="4.0.12"/>
+
+</requires>
+<extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">Manood ng mga Pilipinong Palabas </summary>
+<description lang="en">Manood ng mga Pilipinong Palabas Habang nag ka-kape</description>
+<platform>all</platform>
+<language>en</language>
+<license>GNU PUBLIC LICENSE. version 2, june 1991</license>
+</extension>
+</addon>
+
+<addon id="repository.iamkepweng" name="Team-Kepweng" version="0.0.1" provider-name="Kepweng">
+	<extension point="xbmc.addon.repository" name="Team-Kepweng">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Quick one liner about the repository</summary>
+		<description lang="en">Full repository description.</description>
+		<genre></genre>
+	</extension>
+</addon>
+</addons>

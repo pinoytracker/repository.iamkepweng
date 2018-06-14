@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 	id="plugin.video.PinoyReplay"
+		name="Pinoy Replay"
+		version="1.0.0"
+		provider-name="">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.resolveurl" version="5.0.09"/>
+<import addon="script.module.urlresolver"  version="4.0.12"/>
+
+</requires>
+<extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">Manood ng mga Pilipinong Palabas </summary>
+<description lang="en">Manood ng mga Pilipinong Palabas Habang nag ka-kape</description>
+<platform>all</platform>
+<language>en</language>
+<license>GNU PUBLIC LICENSE. version 2, june 1991</license>
+</extension>
+</addon>
