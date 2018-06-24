@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.iamkepweng" name="Team-Kepweng" version="0.0.1" provider-name="Kepweng">
+
+<addon id="repository.iamkepweng" name="[COLOR crimson]Team[/COLOR]-[COLOR silver]Kepweng[/COLOR]" version="0.0.1" provider-name="Kepweng">
+
 	<extension point="xbmc.addon.repository" name="Team-Kepweng">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
+
 		<info compressed="false">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/addons.xml</info>
+
 		<checksum>https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/addons.xml.md5</checksum>
+
 		<datadir zip="true">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/</datadir>
+
+		<dir>
+                 		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+                 		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+                 		<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+           		</dir>
 	</extension>
+
+
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Quick one liner about the repository</summary>
-		<description lang="en">Full repository description.</description>
+
+		<summary lang="en">Personal Project -Not For Sale</summary>
+
+		<description lang="en">Personal Project of Kepweng - Not For Sale</description>
+
 		<genre></genre>
+
+		<assets>
+		<icon>icon.png</icon>
+                                 <screenshot></screenshot>
+		<screenshot></screenshot>
+		<screenshot></screenshot>
+		<screenshot></screenshot>
+		<screenshot></screenshot>
+	  </assets>
 	</extension>
+
 </addon>
