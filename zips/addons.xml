@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon 	id="plugin.video.pinoykoditeamkepweng"
-		name="TELEPINOY"
-		version="0.0.6"
-		provider-name="TeamKempweng,Fernan,Achilles Team">
-<requires>
-<import addon="xbmc.python" version="2.1.0"/>
-                <import addon="script.module.resolveurl" version="5.0.00"/>
-	<import addon="script.module.addon.common" />
-	<import addon="script.module.requests" />
-    <import addon="script.module.urlresolver"  version="4.0.16"/>
-</requires>
-<extension point="xbmc.python.pluginsource"
-			library="default.py">
-		<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary lang="en">PINOY TELESERYE</summary>
-<description lang="en">WATCH YOUR FAVORITE PINOY TELESERYE ENJOY!!! SPECIAL THANKS TO ACHILLES PROJECT, and FERNAN</description>
-<platform>all</platform>
-<language>en</language>
-<license>GNU PUBLIC LICENSE. version 2, june 1991</license>
-</extension>
-</addon>
-
 <addon 	id="plugin.video.PinoyReplay"
 		name="Pinoy Replay"
 		version="0.0.3"
