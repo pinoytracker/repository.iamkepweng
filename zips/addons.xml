@@ -2,7 +2,7 @@
 <addons>
 <addon 	id="plugin.video.PinoyReplay"
 		name="Pinoy Replay"
-		version="0.0.4"
+		version="0.0.3"
 		provider-name="Kepweng">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
@@ -23,22 +23,34 @@
 </extension>
 </addon>
 
-<addon id="repository.iamkepweng" name="Team Kepweng" version="0.0.1" provider-name="Kepweng">
-	<extension point="xbmc.addon.repository" name="Team Kepweng">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
-		<info compressed="false">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Personal Add-On of Kepweng -Not for Sale</summary>
-		<description lang="en">Personal Add-On of Kepweng -Not for Sale</description>
-		<genre></genre>
-	</extension>
+    <addon id="repository.teamkepweng" name="[COLOR crimson]Team[COLOR silver] Kepweng[/COLOR]" version="0.0.1" provider-name="Team Kepweng">
+        <extension point="xbmc.addon.repository" name="Team Kepweng">
+            <info compressed="false">http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/addons.xml</info>
+            <checksum>http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/addons.xml.md5</checksum>                            <datadir zip="true">http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/</datadir>
+
+          <dir>
+                 <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+                 <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+                 <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+           </dir>
+
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>NOT FOR SALE</summary>
+            <description>NOT FOR SALE</description>
+            <platform>all</platform>
+            <forum></forum>
+            <website></website>
+            <assets>
+		<icon>icon.png</icon>
+                                 <screenshot></screenshot>
+		<screenshot></screenshot>
+		<screenshot></screenshot>
+		<screenshot></screenshot>
+		<screenshot></screenshot>
+	  </assets>
+
+    </extension>
 </addon>
 
 <addon id="script.module.resolveurl" name="ResolveURL" version="5.0.12" provider-name="jsergio">
