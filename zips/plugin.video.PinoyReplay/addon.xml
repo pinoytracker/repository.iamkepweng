@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon 	id="plugin.video.PinoyReplay"
 		name="Pinoy Replay"
-		version="0.0.5"
+		version="0.0.6"
 		provider-name="Kepweng">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
-<import addon="script.module.resolveurl" version="5.0.12"/>
+<import addon="script.module.resolveurl" version="5.0.15"/>
 <import addon="script.module.urlresolver"  version="4.0.16"/>
 
 </requires>
