@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon 	id="plugin.video.PinoyReplay"
 		name="Pinoy Replay"
@@ -25,7 +25,7 @@
 
 <addon 	id="plugin.video.sineserye"
 		name="SINESERYE"
-		version="0.0.1"
+		version="0.0.2"
 		provider-name="Team Kempweng">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
