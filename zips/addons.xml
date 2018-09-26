@@ -2,7 +2,7 @@
 <addons>
 <addon 	id="plugin.video.PinoyReplay"
 		name="Pinoy Replay"
-		version="0.0.8"
+		version="0.0.9"
 		provider-name="Kepweng">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
