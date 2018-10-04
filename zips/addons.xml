@@ -2,7 +2,7 @@
 <addons>
 <addon 	id="plugin.video.PinoyReplay"
 		name="Pinoy Replay"
-		version="0.12"
+		version="0.13"
 		provider-name="Kepweng">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
@@ -15,8 +15,8 @@
 		<provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-<summary lang="en">Manood ng mga Pilipinong Palabas </summary>
-<description lang="en">Manood ng mga Pilipinong Palabas Habang nag ka-kape</description>
+<summary lang="en">Para sa mga OFW </summary>
+<description lang="en">Sit Back and Enjoy !!!</description>
 <platform>all</platform>
 <language>en</language>
 <license>GNU PUBLIC LICENSE. version 2, june 1991</license>
