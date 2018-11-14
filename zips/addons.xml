@@ -25,7 +25,7 @@
 
 <addon 	id="plugin.video.sineserye"
 		name="SINESERYE"
-		version="0.0.3"
+		version="0.0.4"
 		provider-name="Team Kempweng">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
@@ -39,8 +39,8 @@
 		<provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-<summary lang="en">PINOY TELESERYE</summary>
-<description lang="en">WATCH YOUR FAVORITE PINOY TELESERYE AND MOVIES </description>
+<summary lang="en"> Just Relax </summary>
+<description lang="en">Just Relax </description>
 <platform>all</platform>
 <language>en</language>
 <license>GNU PUBLIC LICENSE. version 2, june 1991</license>
