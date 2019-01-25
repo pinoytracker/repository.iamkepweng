@@ -25,11 +25,11 @@
 
 <addon 	id="plugin.video.PinoyReplay"
 		name="Pinoy Replay"
-		version="0.16"
+		version="0.17"
 		provider-name="Kepweng">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
-<import addon="script.module.resolveurl" version="5.0.15"/>
+<import addon="script.module.resolveurl" version="5.0.26"/>
 <import addon="script.module.urlresolver"  version="4.0.16"/>
 
 </requires>
@@ -38,8 +38,8 @@
 		<provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-<summary lang="en">Personal Project </summary>
-<description lang="en">Personal Project !!!</description>
+<summary lang="en">Para sa mga OFW </summary>
+<description lang="en">Sit Back and Enjoy !!!</description>
 <platform>all</platform>
 <language>en</language>
 <license>GNU PUBLIC LICENSE. version 2, june 1991</license>
@@ -70,16 +70,44 @@
 </extension>
 </addon>
 
-    <addon id="repository.teamkepweng" name="[COLOR crimson]Team[COLOR silver] Kepweng[/COLOR]" version="0.0.1" provider-name="Team Kepweng">
+    <addon id="repository.teamkepweng" name="[COLOR crimson]Team[COLOR silver] Kepweng[/COLOR]" version="0.0.2" provider-name="Team Kepweng">
         <extension point="xbmc.addon.repository" name="Team Kepweng">
             <info compressed="false">http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/addons.xml</info>
-            <checksum>http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/addons.xml.md5</checksum>                            <datadir zip="true">http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/</datadir>
+            <checksum>http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/</datadir>
 
           <dir>
                  <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
                  <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
                  <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
            </dir>
+
+	<dir>
+
+		<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+
+		<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+
+		<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+
+		</dir>
+
+	<dir>
+		 <info compressed="false">http://github.com/cmik/cmik.xbmc/raw/master/addons.xml</info>
+		 <checksum>http://github.com/cmik/cmik.xbmc/raw/master/addons.xml.md5</checksum>
+        		<datadir zip="true">http://github.com/cmik/cmik.xbmc/raw/master/downloads</datadir>
+		</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+		</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+          		<checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+            		<datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+            		<hashes>false</hashes>
+        		</dir>
 
         </extension>
         <extension point="xbmc.addon.metadata">
@@ -147,45 +175,5 @@
     <source>https://github.com/beenje/script.module.requests</source>
     <email>beenje AT gmail.com</email>
   </extension>
-</addon>
-
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.15" provider-name="jsergio">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-		<import addon="plugin.video.gdrive" optional="true" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-	</extension>
-</addon>
-
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.16" provider-name="Eldorado, tknorris, tvaddons">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-        <forum>https://www.tvaddons.co/forums</forum>
-        <website>https://www.tvaddons.co</website>
-	</extension>
 </addon>
 </addons>
