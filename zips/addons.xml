@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon 	id="plugin.video.dramacool"
+		name="DRAMA COOL"
+		version="0.0.5"
+		provider-name="MANG_KEPWENG">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+
+</requires>
+<extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">KOREAN DRAMA SERIES WITH SUBTITLES </summary>
+<description lang="en">WATCH YOUR FAVORITE KOREAN DRAMA TV SHOWS ENJOY!!</description>
+<platform>all</platform>
+<language>en</language>
+<license>GNU PUBLIC LICENSE. version 2, june 1991</license>
+</extension>
+</addon>
+
+<addon 	id="plugin.video.PinoyReplay"
+		name="Pinoy Replay"
+		version="0.18"
+		provider-name="Kepweng">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.resolveurl" version="5.0.26"/>
+
+
+
+</requires>
+<extension point="xbmc.python.pluginsource"
+			library="PinoyReplay.py">
+		<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">Para sa mga OFW </summary>
+<description lang="en">Sit Back and Enjoy !!!</description>
+<platform>all</platform>
+<language>en</language>
+<license>GNU PUBLIC LICENSE. version 2, june 1991</license>
+</extension>
+</addon>
+
+<addon 	id="plugin.video.sineserye"
+		name="SINESERYE"
+		version="0.0.4"
+		provider-name="Team Kempweng">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+                <import addon="script.module.resolveurl" version="5.0.15"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+
+</requires>
+<extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en"> Just Relax </summary>
+<description lang="en">Just Relax </description>
+<platform>all</platform>
+<language>en</language>
+<license>GNU PUBLIC LICENSE. version 2, june 1991</license>
+</extension>
+</addon>
+
+    <addon id="repository.teamkepweng" name="Team Kepweng" version="1.0.1" provider-name="Mang Kepweng">
+
+      <extension point="xbmc.addon.repository" name="Team Kepweng">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/</datadir>
+        </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Personal ni Kepweng</summary>
+            <description>Personal ni Kepweng</description>
+            <platform>all</platform>
+
+        </extension>
+    </addon>
+
+<addon id="script.module.addon.common"
+	     name="Common addon methods"
+	     version="2.0.1"
+	     provider-name="Eldorado (original: t0mm0)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="script.module.requests"
+       name="requests"
+       version="2.18.4.1"
+       provider-name="kennethreitz">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.urllib3" version="1.22"/>
+    <import addon="script.module.chardet" version="3.0.4"/>
+    <import addon="script.module.idna" version="2.6"/>
+    <import addon="script.module.certifi" version="2017.07.27.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python HTTP for Humans</summary>
+    <description lang="en_GB">Packed for KODI from https://github.com/requests/requests</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://python-requests.org</website>
+    <source>https://github.com/beenje/script.module.requests</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.26" provider-name="jsergio">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.python.twitch" optional="true" />
+		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+		<import addon="plugin.video.gdrive" optional="true" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+	</extension>
+</addon>
+</addons>
