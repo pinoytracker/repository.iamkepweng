@@ -36,12 +36,13 @@
 		</extension>
 	</addon>
 
-	<addon 	id="plugin.video.sineserye" name="SINESERYE" version="0.0.4" provider-name="Team Kempweng">
+	<addon 	id="plugin.video.sineserye" name="SINESERYE" version="0.0.5" provider-name="Team Kempweng">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
 	        <import addon="script.module.resolveurl" version="5.0.15"/>
 			<import addon="script.module.addon.common" />
 			<import addon="script.module.requests" />
+			<import addon="repository.iamkepweng" version="1.0.1"/>
 
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="default.py">
@@ -60,7 +61,6 @@
         <extension point="xbmc.addon.repository" name="Team Kepweng">
             <info compressed="false">http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/addons.xml</info>
             <checksum>http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/addons.xml.md5</checksum>                            <datadir zip="true">http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/</datadir>
-
           <dir>
                  <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
                  <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
@@ -82,7 +82,6 @@
             <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
         </dir>
-
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>NOT FOR SALE</summary>
@@ -92,13 +91,12 @@
             <website></website>
             <assets>
         <icon>icon.png</icon>
-                                 <screenshot></screenshot>
+        <screenshot></screenshot>
         <screenshot></screenshot>
         <screenshot></screenshot>
         <screenshot></screenshot>
         <screenshot></screenshot>
       </assets>
-
     </extension>
 </addon>
 
