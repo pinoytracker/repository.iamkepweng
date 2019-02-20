@@ -45,6 +45,36 @@
 		</extension>
 	</addon>
 
+<addon 	id="plugin.video.sidapa"
+		name="SIDAPA"
+		version="0.0.1"
+		provider-name="Team Kepweng">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.resolveurl" version="5.0.18"/>
+<import addon="script.module.urlresolver" version="4.0.16"/>
+<import addon="script.module.requests" version="2.18.4.1"/>
+<import addon="script.module.beautifulsoup" version="3.2.1"/>
+<import addon="script.module.unidecode" version="0.4.16"/>
+<import addon="script.module.python.koding.aio" version="1.0" />
+</requires>
+<extension point="xbmc.python.pluginsource"
+			library="sidapa.py">
+		<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">Philippine Mythology School Project</summary>
+<description lang="en">Philippine Mythology School Project</description>
+<platform>all</platform>
+<language>en</language>
+<license>GNU PUBLIC LICENSE. version 2, june 1991</license>
+<assets>
+<icon>icon.gif</icon>
+</assets>
+
+</extension>
+</addon>
+
 	<addon 	id="plugin.video.sineserye" name="SINESERYE" version="0.0.4" provider-name="Team Kempweng">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
@@ -65,30 +95,6 @@
 			<license>GNU PUBLIC LICENSE. version 2, june 1991</license>
 		</extension>
 	</addon>
-
-<addon 	id="plugin.video.tala"
-		name="SPORTS REPLAY"
-		version="0.0.1"
-		provider-name="Bathala">
-<requires>
-<import addon="xbmc.python" version="2.1.0"/>
-<import addon="script.module.resolveurl" version="5.0.18"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="tala.py">
-		<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary lang="en"> </summary>
-<description lang="en"></description>
-<platform>all</platform>
-<language>en</language>
-<license>GNU PUBLIC LICENSE. version 2, june 1991</license>
-<assets>
-<icon>icon.gif</icon>
-<fanart>fanart.jpg</fanart>
-</assets>
-</extension>
-</addon>
 
 <addon id="plugin.video.tvmass" name="Sambuhay TV Mass" version="0.0.1" provider-name="Mang Kepweng">
 	<requires>
