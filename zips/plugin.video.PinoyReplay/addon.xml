@@ -3,7 +3,6 @@
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
 <import addon="script.module.resolveurl" version="5.0.15"/>
-<import addon="script.module.urlresolver"  version="4.0.16"/>
 <import addon="script.module.requests" version="2.18.4.1"/>
 <import addon="script.module.python.koding.aio" version="1.0" />
 
