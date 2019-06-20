@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 	id="plugin.video.PinoyReplay" name="Pinoy Replay" version="0.23" provider-name="Kepweng">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.resolveurl" version="5.0.15"/>
+<import addon="script.module.requests" version="2.18.4.1"/>
+<import addon="script.module.python.koding.aio" version="1.0" />
+
+</requires>
+<extension point="xbmc.python.pluginsource"
+			library="PinoyReplay20.py">
+		<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en"></summary>
+<description lang="en"></description>
+<platform>all</platform>
+<language>en</language>
+<license></license>
+</extension>
+</addon>
