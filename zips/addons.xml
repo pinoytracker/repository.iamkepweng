@@ -78,26 +78,26 @@
 </extension>
 </addon>
 
-	<addon 	id="plugin.video.sineserye" name="SINESERYE" version="0.0.4" provider-name="Team Kempweng">
-		<requires>
-			<import addon="xbmc.python" version="2.1.0"/>
-	        <import addon="script.module.resolveurl" version="5.0.15"/>
-			<import addon="script.module.addon.common" />
-			<import addon="script.module.requests" />
+<addon 	id="plugin.video.sineserye" name="SINESERYE" version="0.0.5" provider-name="Team Kempweng">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.resolveurl" version="5.0.15"/>
+<import addon="script.module.requests" version="2.18.4.1"/>
+<import addon="script.module.python.koding.aio" version="1.0" />
 
-
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en"> Just Relax </summary>
-			<description lang="en">Just Relax </description>
-			<platform>all</platform>
-			<language>en</language>
-			<license>GNU PUBLIC LICENSE. version 2, june 1991</license>
-		</extension>
-	</addon>
+</requires>
+<extension point="xbmc.python.pluginsource"
+			library="Sineserye.py">
+		<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en"></summary>
+	<description lang="en"></description>
+	<platform>all</platform>
+	<language>en</language>
+	<license></license>
+</extension>
+</addon>
 
 <addon id="plugin.video.tvmass" name="Sambuhay TV Mass" version="0.0.1" provider-name="Mang Kepweng">
 	<requires>
