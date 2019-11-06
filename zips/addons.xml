@@ -27,7 +27,7 @@
 </extension>
 </addon>
 
-<addon 	id="plugin.video.PinoyReplay" name="Pinoy Replay" version="Beta-0.01" provider-name="Kepweng">
+<addon 	id="plugin.video.PinoyReplay" name="Pinoy Replay" version="Beta-0.02" provider-name="Kepweng">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
 <import addon="script.module.resolveurl" version="5.0.34"/>
