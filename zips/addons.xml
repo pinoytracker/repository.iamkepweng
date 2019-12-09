@@ -27,10 +27,11 @@
 </extension>
 </addon>
 
-<addon 	id="plugin.video.PinoyReplay" name="Pinoy Replay" version="Beta-0.02" provider-name="Kepweng">
+<addon 	id="plugin.video.PinoyReplay" name="Pinoy Replay" version="Beta-0.04" provider-name="Kepweng">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
 <import addon="script.module.resolveurl" version="5.0.34"/>
+<import addon="script.module.jsbeautifier" version="1.8.8"/>
 <!--<import addon="plugin.video.sineserye" version="0.0.8"/>-->
 <import addon="script.module.requests" version="2.18.4.1"/>
 <import addon="script.module.python.koding.aio" version="1.0" />
@@ -232,6 +233,22 @@
 						<source></source>
 				</extension>
 		</addon>
+
+<addon id="script.module.jsbeautifier" name="jsbeautifier" version="1.8.8" provider-name="jsergio">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.six" version="1.6.1" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Written by Einar Lielmanis, maintained and evolved by Liam Newman.</summary>
+        <description>Beautify, unpack or deobfuscate JavaScript. Handles popular online obfuscators.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://pypi.org/project/jsbeautifier/</source>
+        <website>https://beautifier.io/</website>
+    </extension>
+</addon>
 
   <addon id="script.module.requests" name="requests" version="2.18.4.1" provider-name="kennethreitz">
     <requires>
