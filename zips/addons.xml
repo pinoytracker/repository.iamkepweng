@@ -27,10 +27,10 @@
 </extension>
 </addon>
 
-<addon 	id="plugin.video.PinoyReplay" name="Pinoy Replay" version="Beta-0.04" provider-name="Kepweng">
+<addon 	id="plugin.video.PinoyReplay" name="Pinoy Replay" version="Beta-0.06" provider-name="Kepweng">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
-<import addon="script.module.resolveurl" version="5.0.34"/>
+<import addon="script.module.resolveurl" version="5.0.39"/>
 <import addon="script.module.jsbeautifier" version="1.8.8"/>
 <!--<import addon="plugin.video.sineserye" version="0.0.8"/>-->
 <import addon="script.module.requests" version="2.18.4.1"/>
@@ -38,8 +38,8 @@
 <import addon="repository.kepweng2.0" version="0.0.4"/>
 
 </requires>
-<extension point="xbmc.python.pluginsource"
-			library="PinoyReplay20.py">
+<extension point="xbmc.service" library="service.py" start="startup"/>
+<extension point="xbmc.python.pluginsource" library="teamkepweng.py">
 		<provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
@@ -271,7 +271,7 @@
     </extension>
   </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.38.1" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.39" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
