@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon 	id="plugin.video.dramacool" name="DRAMA COOL" version="1.4" provider-name="MANG_KEPWENG">
+<addon 	id="plugin.video.dramacool" name="DRAMA COOL" version="1.5" provider-name="MANG_KEPWENG">
 <requires>
 	<import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.requests" />
-	<import addon="script.module.resolveurl" version="5.0.26"/>
-	<import addon="repository.kepweng2.0" version="0.0.1"/>
+	<import addon="script.module.resolveurl" version="5.0.39"/>
+	<!--import addon="repository.kepweng2.0" version="0.0.1"/>
 	<import addon="repository.jsergio" version="1.0.4"/>
-	<import addon="repository.totalrevolution" version="1.0"/>
+	<import addon="repository.totalrevolution" version="1.0"/-->
 </requires>
 <extension point="xbmc.python.pluginsource"
 			library="default.py">
