@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon 	id="plugin.video.PinoyReplay" name="Pinoy Replay" version="Beta-0.06" provider-name="Kepweng">
+<addon 	id="plugin.video.PinoyReplay" name="Pinoy Replay" version="Beta-0.07" provider-name="Team Kepweng">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
-<import addon="script.module.resolveurl" version="5.0.39"/>
+<import addon="script.module.resolveurl" />
 <import addon="script.module.jsbeautifier" version="1.8.8"/>
-<!--<import addon="plugin.video.sineserye" version="0.0.8"/>-->
-<import addon="script.module.requests" version="2.18.4.1"/>
-<import addon="script.module.python.koding.aio" version="1.0" />
-<import addon="repository.kepweng2.0" version="0.0.4"/>
-
+<import addon="script.module.kepwengnews" version="0.0.1"/>
+<import addon="plugin.video.sineserye" version="0.12"/>
+<import addon="plugin.video.dramacool" version="0.0.2"/>
+<import addon="script.module.requests" version="2.22.0"/>
+<import addon="script.module.python.koding.aio" version="Team Kepweng 1.0"/>
+<import addon="repository.kepweng2.0" version="0.0.6"/>
 </requires>
-<extension point="xbmc.service" library="service.py" start="startup"/>
 <extension point="xbmc.python.pluginsource" library="teamkepweng.py">
 		<provides>video</provides>
 </extension>
@@ -19,6 +19,5 @@
 <description lang="en"></description>
 <platform>all</platform>
 <language>en</language>
-<license></license>
 </extension>
 </addon>
