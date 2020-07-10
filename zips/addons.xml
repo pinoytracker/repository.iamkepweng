@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon 	id="plugin.video.dramacool" name="DRAMA COOL" version="0.0.2" provider-name="MANG_KEPWENG">
+<requires>
+	<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" version="2.0.1"/>
+	<import addon="script.module.requests" version="2.22.0"/>
+	<import addon="script.module.resolveurl" version="5.0.45"/>
+	<!-- import addon="repository.kepweng2.0" version="0.0.1"/>
+	<import addon="repository.jsergio" version="1.0.4"/>
+	<import addon="repository.totalrevolution" version="1.0"/ -->
+</requires>
+<extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en"></summary>
+<description lang="en"></description>
+<platform>all</platform>
+<language>en</language>
+<license>GNU PUBLIC LICENSE. version 2, june 1991</license>
+<assets>
+<icon>icon.gif</icon>
+<fanart>fanart.jpg</fanart>
+</assets>
+</extension>
+</addon>
+
+<addon 	id="plugin.video.PinoyReplay" name="Pinoy Replay" version="Beta-0.0.7" provider-name="Team Kepweng">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.resolveurl" version="5.0.45" />
+<import addon="repository.kepweng2.0" version="0.0.6" />
+<import addon="script.module.jsbeautifier" version="1.8.8" />
+<import addon="script.module.kepwengnews" version="0.0.1" />
+<!--import addon="plugin.video.dramacool" version="0.0.2" /-->
+<import addon="script.module.requests" version="2.22.0" />
+<import addon="script.module.beautifulsoup" version="3.2.1" />
+<import addon="script.module.unidecode" version="1.1.1" />
+<import addon="script.module.python.koding.aio" version="7.20.77" />
+<!--import addon="plugin.video.sineserye" version="0.12" /-->
+
+</requires>
+<extension point="xbmc.python.pluginsource" library="teamkepweng.py">
+		<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en"></summary>
+<description lang="en"></description>
+<platform>all</platform>
+<language>en</language>
+</extension>
+</addon>
+
+<addon 	id="plugin.video.sineserye" name="SINESERYE" version="0.13" provider-name="Team Kempweng">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.requests" version="2.22.0"/>
+<import addon="script.module.python.koding.aio" version="7.20.77"/>
+<import addon="script.module.resolveurl" version="5.0.45"/>
+</requires>
+<extension point="xbmc.python.pluginsource"
+			library="Sineserye.py">
+		<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en"></summary>
+	<description lang="en"></description>
+	<platform>all</platform>
+	<language>en</language>
+	<license></license>
+</extension>
+</addon>
+
+    <addon id="repository.teamkepweng" name="[COLOR crimson]Team[COLOR silver] Kepweng[/COLOR]" version="0.0.1" provider-name="Team Kepweng">
+        <extension point="xbmc.addon.repository" name="Team Kepweng">
+            <info compressed="false">http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/addons.xml</info>
+            <checksum>http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/addons.xml.md5</checksum>                            <datadir zip="true">http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips/</datadir>
+
+          <dir>
+                 <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+                 <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+                 <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+           </dir>
+
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>NOT FOR SALE</summary>
+            <description>NOT FOR SALE</description>
+            <platform>all</platform>
+            <forum></forum>
+            <website></website>
+            <assets>
+		<icon>icon.png</icon>
+                                 <screenshot></screenshot>
+		<screenshot></screenshot>
+		<screenshot></screenshot>
+		<screenshot></screenshot>
+		<screenshot></screenshot>
+	  </assets>
+
+    </extension>
+</addon>
+
+<addon id="repository.kepweng2.0" name="KEPWENG2.0" version="0.0.6" provider-name="Team Kepweng">
+	<extension point="xbmc.addon.repository" name="KEPWENG2.0">
+		<dir>
+			<info compressed="false">http://github.com/cmik/cmik.xbmc/raw/master/addons.xml</info>
+			<checksum>http://github.com/cmik/cmik.xbmc/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">http://github.com/cmik/cmik.xbmc/raw/master/downloads</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bathala Project</summary>
+		<description lang="en">A Private and Personal Project</description>
+		<genre></genre>
+		<assets>
+			<icon>icon.gif</icon>
+			<fanart>fanart.jpg</fanart>
+			</assets>
+	</extension>
+</addon>
+
+		<addon id="script.module.addon.common" name="Common addon methods" version="2.0.1" provider-name="Eldorado (original: t0mm0)">
+				<requires>
+						<import addon="xbmc.python" version="2.1.0" />
+				</requires>
+				<extension point="xbmc.python.module" library="lib" />
+				<extension point="xbmc.addon.metadata">
+						<platform>all</platform>
+						<summary lang="en">Collection of commonly used addon routines</summary>
+						<description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+						<disclaimer lang="en"></disclaimer>
+						<language></language>
+						<platform>all</platform>
+						<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+						<forum></forum>
+						<website></website>
+						<email></email>
+						<source></source>
+				</extension>
+		</addon>
+
+<addon id="script.module.beautifulsoup"
+       name="BeautifulSoup"
+       version="3.2.1"
+       provider-name="Leonard Richardson (leonardr@segfault.org)">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>HTML/XML parser for quick-turnaround applications like screen-scraping</summary>
+    <description>Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.</description>
+    <license>BSD</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.certifi"
+       name="certifi"
+       version="2019.9.11"
+       provider-name="Kenneth Reitz">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python package for providing Mozilla's CA Bundle.</summary>
+    <description lang="en_GB">Certifi is a carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Requests project.</description>
+    <license>MPL-2.0</license>
+    <website>https://certifi.io</website>
+    <source>https://github.com/certifi/python-certifi</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.chardet"
+       name="chardet"
+       version="3.0.4"
+       provider-name="Dan Blanchard">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Universal encoding detector</summary>
+    <description lang="en_GB">Packed for Kodi from https://github.com/chardet/chardet</description>
+    <license>LGPL</license>
+    <platform>all</platform>
+    <language></language>
+    <forum></forum>
+    <website>https://chardet.readthedocs.io/en/latest/</website>
+    <source>https://github.com/beenje/script.module.chardet</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.idna"
+       name="idna"
+       version="2.8"
+       provider-name="Kim Davies">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Internationalized Domain Names for Python</summary>
+    <description lang="en_GB">Packed for KODI from https://github.com/kjd/idna</description>
+    <platform>all</platform>
+    <language></language>
+    <license>BSD</license>
+    <forum></forum>
+    <website>https://github.com/kjd/idna</website>
+    <source>https://github.com/Freso/script.module.idna</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.jsbeautifier" name="Jsbeautifier" version="1.10.3" provider-name="jsbeautifier">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.six" version="1.6.1" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Written by Einar Lielmanis, maintained and evolved by Liam Newman.</summary>
+        <description>Beautify, unpack or deobfuscate JavaScript. Handles popular online obfuscators.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://pypi.org/project/jsbeautifier/</source>
+        <website>https://beautifier.io/</website>
+    </extension>
+</addon>
+
+	<addon id="script.module.kepwengnews" name="Kepweng News" provider-name="Team Kepweng" version="0.0.1">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.requests" version="2.18.4.1"/>
+		</requires>
+		<extension point="xbmc.service" library="service.py" start="startup"/>
+		<extension point="xbmc.addon.metadata">
+			<description lang="en"></description>
+			<license></license>
+			<language>en</language>
+		</extension>
+	</addon>
+
+<addon id="script.module.python.koding.aio" name="Python Koding AIO" version="7.20.77" provider-name="Total Revolution">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.resolveurl" version="5.0.45" />
+    <!--import addon="script.module.urlresolver" version="1.2.0"/-->
+    <import addon="script.module.requests" version="2.22.0" />
+    <import addon="script.module.beautifulsoup" version="3.2.1" />
+    <import addon="script.module.unidecode" version="1.1.1" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Python Koding All In One</summary>
+    <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <license>Creative Commons 4.0-NC-ND</license>
+    <forum></forum>
+    <website></website>
+    <news></news>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="script.module.requests"
+       name="requests"
+       version="2.22.0"
+       provider-name="kennethreitz">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.urllib3" version="1.25.6"/>
+    <import addon="script.module.chardet" version="3.0.4"/>
+    <import addon="script.module.idna" version="2.8"/>
+    <import addon="script.module.certifi" version="2019.9.11"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python HTTP for Humans</summary>
+    <description lang="en_GB">Packed for KODI from https://pypi.org/project/requests/</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://python-requests.org</website>
+    <source>https://github.com/Freso/script.module.requests</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.1" provider-name="gujal">
+    <requires>
+        <!-- <import addon="xbmc.python" version="3.0.0" /> -->
+        <import addon="script.module.six" version="0.0.1"/>
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+        <import addon="plugin.video.gdrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+        <summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+        <summary lang="el">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
+        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.six"
+       name="six"
+       version="1.9.0"
+       provider-name="gutworth">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python 2 and 3 compatibility utilities.</summary>
+    <description>Six is a Python 2 and 3 compatibility library. It provides utility functions for smoothing over the differences between the Python versions with the goal of writing Python code that is compatible on both Python versions. See the documentation for more information on what is provided.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://pypi.python.org/pypi/six</source>
+    <website>https://pypi.python.org/pypi/six</website>
+  </extension>
+</addon>
+
+<addon id="script.module.unidecode" name="unidecode" version="1.1.1" provider-name="Tomaz Solc (Tomaz.solc@tablix.org)">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">ASCII transliterations of Unicode text by Sean M. Burke and Tomaz Solc</summary>
+		<description lang="en">ASCII transliterations of Unicode text by Sean M. Burke and Tomaz Solc</description>
+		<disclaimer lang="en">Code taken from https://pypi.org/project/Unidecode</disclaimer>
+		<license>GPL-2.0-or-later</license>
+		<website>https://pypi.org/project/Unidecode</website>
+		<source>https://pypi.org/project/Unidecode</source>
+	</extension>
+</addon>
+
+<addon id="script.module.urllib3"
+       name="urllib3"
+       version="1.25.6"
+       provider-name="Andrey Petrov">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">HTTP library with thread-safe connection pooling, file post, and more.</summary>
+    <description lang="en_GB">Packed for KODI from https://pypi.org/project/urllib3/</description>
+    <license>MIT</license>
+    <website>https://urllib3.readthedocs.io/en/latest/</website>
+    <source>https://github.com/urllib3/urllib3</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+</addons>
