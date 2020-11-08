@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon 	id="plugin.video.PinoyReplay" name="Pinoy Replay" version="Beta-0.0.8" provider-name="Team Kepweng">
+<addon 	id="plugin.video.PinoyReplay" name="Pinoy Replay" version="Beta-0.0.9" provider-name="Team Kepweng">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
 <import addon="script.module.resolveurl" version="5.0.45" />
 <import addon="repository.kepweng2.0" version="0.0.6" />
 <import addon="script.module.jsbeautifier" version="1.8.8" />
 <import addon="script.module.kepwengnews" version="0.0.1" />
-<!--import addon="plugin.video.dramacool" version="0.0.2" /-->
+<import addon="plugin.video.dramacool" version="0.0.2" />
 <import addon="script.module.requests" version="2.22.0" />
 <import addon="script.module.beautifulsoup" version="3.2.1" />
 <import addon="script.module.unidecode" version="1.1.1" />
 <import addon="script.module.python.koding.aio" version="7.20.77" />
-<!--import addon="plugin.video.sineserye" version="0.12" /-->
+<import addon="plugin.video.sineserye" version="0.12" />
 
 </requires>
 <extension point="xbmc.python.pluginsource" library="teamkepweng.py">
