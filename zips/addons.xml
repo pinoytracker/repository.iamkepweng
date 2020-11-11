@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon 	id="plugin.video.dramacool" name="DRAMA COOL" version="0.0.2" provider-name="MANG_KEPWENG">
+<addon 	id="plugin.video.dramacool" name="DRAMAFLIX" version="0.0.4" provider-name="MANG_KEPWENG">
 <requires>
 	<import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" version="2.0.1"/>
@@ -21,7 +21,7 @@
 <language>en</language>
 <license>GNU PUBLIC LICENSE. version 2, june 1991</license>
 <assets>
-<icon>icon.gif</icon>
+<icon>icon.png</icon>
 <fanart>fanart.jpg</fanart>
 </assets>
 </extension>
