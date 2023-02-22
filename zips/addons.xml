@@ -31,9 +31,10 @@
 	<extension point="xbmc.addon.repository" name="KEPWENG2.0">
 
 		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/addons.xml.md5</checksum>
+			<info compressed="false">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/</datadir>
+
 		</dir>
 
 		<dir>
