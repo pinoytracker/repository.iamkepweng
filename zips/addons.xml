@@ -33,7 +33,7 @@
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/pinoytracker/repository.iamkepweng/master/zips/</datadir>
+			<datadir zip="true">http://github.com/pinoytracker/repository.iamkepweng/raw/master/zips</datadir>
 
 		</dir>
 
